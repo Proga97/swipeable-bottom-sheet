@@ -5,8 +5,8 @@
   "main": "lib/min.js",
   "types": "lib/types/SwipeableBottomSheetContainer.d.ts",
   "peerDependencies": {
-    "react": "16.8.x || 17.x.x",
-    "react-dom": "16.8.x || 17.x.x"
+    "react": "^16 || ^17 || ^18" ,
+    "react-dom": "^16 || ^17 || ^18" 
   },
   "scripts": {
     "lint": "eslint '*src/**/*.{js,ts}' --quiet --fix",
